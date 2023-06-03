@@ -3,11 +3,11 @@ package eu.svetlin.design.patterns.factory.factorymethod.Pizza;
 import java.util.ArrayList;
 import java.util.List;
 
-abstract public class Pizza {
-    String name;
-    String dough;
-    String sauce;
-    List<String> toppings = new ArrayList<>();
+public abstract class Pizza {
+    public String name;
+    public String dough;
+    public String sauce;
+    public List<String> toppings = new ArrayList<>();
 
     public String getName() {
         return name;
@@ -19,7 +19,7 @@ abstract public class Pizza {
         System.out.println("Adding sauce...");
         System.out.println("Adding toppings: ");
         for(String topping: toppings){
-            System.out.println(" " + topping);
+            System.out.println(" * " + topping);
         }
 
     }
@@ -33,7 +33,7 @@ abstract public class Pizza {
     }
 
     public void box(){
-        System.out.println("Place the pizza in official PizzaStore box " + name);
+        System.out.println("Place the pizza in an official PizzaStore box " + name);
     }
 
     @Override
