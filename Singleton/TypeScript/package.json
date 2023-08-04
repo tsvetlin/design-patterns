@@ -1,5 +1,5 @@
 {
-  "name": "observer-typescript",
+  "name": "singleton-typescript",
   "version": "1.0.0",
   "description": "Singleton Design Pattern",
   "main": "dist/singletonsimulator.js",
