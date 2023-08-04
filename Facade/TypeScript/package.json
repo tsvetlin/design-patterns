@@ -1,0 +1,33 @@
+{
+  "name": "facade-typescript",
+  "version": "1.0.0",
+  "description": "Facade Design Pattern",
+  "main": "dist/hometheater.js",
+  "scripts": {
+    "start": "tsc && node dist/hometheater.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsvetlin/design-patterns.git"
+  },
+  "keywords": [
+    "Facade",
+    "Design",
+    "Pattern",
+    "Typescript"
+  ],
+  "author": "Szvetlin Tanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsvetlin/design-patterns/issues"
+  },
+  "homepage": "https://github.com/tsvetlin/design-patterns#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  }
+}
